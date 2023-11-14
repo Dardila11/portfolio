@@ -10,7 +10,7 @@ export default function Projects() {
       <div>
 
         {projectsData.map(project => (
-          <section className='group relative bg-gray-100 max-w-[42rem] border border-black/5
+          <section key={project.title} className='group relative bg-gray-100 max-w-[42rem] border border-black/5
             overflow-hidden sm:pr-8 sm:h-[20rem] mb-3 sm:mb-8 last:mb-0 even:pl-8
             hover:bg-gray-200 transition'
           >
@@ -21,7 +21,7 @@ export default function Projects() {
               <p className='mt-2 leading-relaxed text-gray-700'>{project.description}</p>
               <ul className='flex flex-wrap mt-2 gap-2 sm:mt-auto'>
                 {project.tags.map(tag => (
-                  <li className='bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider
+                  <li key={tag} className='bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider
                  text-white rounded-full'
                   >{tag}</li>
                 ))}
