@@ -10,7 +10,7 @@ export default function About() {
       transition={{ delay: 0.175 }}
     >
       <SectionHeading> about me </SectionHeading>
-      <p className="mb-3">
+      <p>
         Hello! I'm Daniel, a passionate software engineer with a focus on <span className="font-medium">iOS.</span>{" "}
         I love creating cross-platform experiences using <span className="font-medium">Flutter</span>  and
         diving into web development with <span className="font-medium">React and Next.js.</span>{" "}
