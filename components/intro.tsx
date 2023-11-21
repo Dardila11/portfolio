@@ -37,7 +37,7 @@ export default function Intro() {
       >
         <span className='font-bold'>Hello, I&apos;m Daniel.</span> I&apos;m a  <span className='font-bold'>Software engineer</span> with
         {" "}<span className='font-bold'>2 years</span> of experience.
-        My passion is building <span className='italic underline'>mobile and web apps</span> to all users!
+        My passion is building <span className='italic underline'>mobile and web apps</span> using the latest technologies!
       </motion.h1>
 
       <motion.div className='flex flex-col sm:flex-row items-center justify-center 

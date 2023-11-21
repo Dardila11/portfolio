@@ -12,7 +12,7 @@ export default function Projects() {
         {projectsData.map(project => (
           <section key={project.title} className='group relative bg-gray-100 max-w-[42rem] border border-black/5
             overflow-hidden sm:pr-8 sm:h-[20rem] mb-3 sm:mb-8 last:mb-0 even:pl-8
-            hover:bg-gray-200 transition'
+            hover:bg-gray-200 transition cursor-pointer'
           >
 
             <div className='flex flex-col h-full group-even:ml-[18rem] pt-4 pb-7 px-5 
