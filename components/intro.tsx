@@ -13,7 +13,7 @@ export default function Intro() {
 
   const { setActiveSection } = useActiveSectionContext()
   const { ref, inView } = useInView({
-    threshold: 0.5
+    threshold: 0.
   })
 
   useEffect(() => {

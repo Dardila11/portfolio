@@ -22,15 +22,7 @@ export const links = [
   {
     name: "Skills",
     hash: "#skills",
-  },
-  {
-    name: "Experience",
-    hash: "#experience",
-  },
-  {
-    name: "Contact",
-    hash: "#contact",
-  },
+  }
 ] as const;
 
 export const experiencesData = [
@@ -94,14 +86,12 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
+  "Flutter",
+  "Dart",
+  "Flutter BloC",
+  "SwiftUI",
+  "iOS",
+  "Swift",
   "Framer Motion",
+  "Firebase",
 ] as const;

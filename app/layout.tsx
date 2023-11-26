@@ -1,3 +1,4 @@
+import Footer from '@/components/footer'
 import Header from '@/components/header'
 import ActiveSectionContextProvider from '@/context/active-section-context'
 import { Inter } from 'next/font/google'
@@ -17,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className='!scroll-smooth'>
-      <body className={`${inter.className} bg-gray-50 text-gray-950 relative h-[5000px] pt-28
+      <body className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28
           sm:pt-36`}>
 
         <div className='bg-[#fbe2e3] absolute top-[-6rem] -z-10 right-[11rem] 
@@ -31,6 +32,7 @@ export default function RootLayout({
         <ActiveSectionContextProvider>
           <Header />
           {children}
+          <Footer />
         </ActiveSectionContextProvider>
       </body>
     </html>

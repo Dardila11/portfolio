@@ -23,7 +23,7 @@ export default function Projects() {
   return (
     <section
       ref={ref}
-      className='scroll-mt-28' id='projects'>
+      className='scroll-mt-28 mb-28' id='projects'>
       <SectionHeading> my projects </SectionHeading>
       <div>
 
