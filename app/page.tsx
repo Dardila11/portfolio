@@ -10,8 +10,8 @@ export default function Home() {
       <Intro />
       <SectionDivider />
       <About />
-      <Projects />
       <Skills />
+      <Projects />
     </main>
   )
 }
